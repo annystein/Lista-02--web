@@ -1,11 +1,13 @@
-let numero = 0;
-console.log("Digite um número:");
-numero = Number(prompt());
+let numero = 10;
+numero = Number(prompt("Digite um número:"));
 
 if (numero > 0) {
   console.log("O número é positivo.");
-} else if (numero < 0) {
+}
+
+if (numero < 0) {
   console.log("O número é negativo.");
-} else {
+}
+else {
   console.log("O número é zero.");
 }
