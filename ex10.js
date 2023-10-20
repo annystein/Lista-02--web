@@ -1,8 +1,7 @@
-let renda = 0;
-let limite = 28.559,70;
+let renda = 10850.80;
+let limite = 28721.50;
 
-console.log("Digite sua renda anual:");
-renda = Number(prompt());
+renda = prompt("Digite sua renda anual:");
 
 if (renda > limite) {
   console.log("Você deve pagar impostos.");
